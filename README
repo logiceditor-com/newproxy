@@ -1,0 +1,6 @@
+newproxy: Lua 5.1's newproxy() replacement for future Lua versions
+========================
+
+Copyright (c) 2020-2021 newproxy rock authors
+
+See file 'COPYRIGHT' for the license.

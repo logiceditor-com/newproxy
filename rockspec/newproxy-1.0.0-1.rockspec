@@ -1,7 +1,7 @@
 package = "newproxy"
 version = "1.0.0-1"
 source = {
-   url = "" -- TODO
+   url = "https://github.com/logiceditor-com/newproxy"
 }
 description = {
    summary = "Lua 5.1's newproxy() replacement for future Lua versions",

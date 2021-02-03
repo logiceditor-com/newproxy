@@ -1,5 +1,5 @@
 newproxy: Lua 5.1's newproxy() replacement for future Lua versions
-========================
+==================================================================
 
 Copyright (c) 2020-2021 newproxy rock authors
 
@@ -8,11 +8,24 @@ See file 'COPYRIGHT' for the license.
 # Install
 
 ```
-luarocks make rockspeck/newproxy-scm-1.rockspec
+./make.sh
+```
+
+# Install locally
+
+```
+./make.sh --local
+```
+
+# Usage
+
+```
+local newproxy = require 'newproxy'
+local userdata = newproxy()
 ```
 
 # Tests
 
 ```
-lua test/test/lua
+lua test/test.lua
 ```

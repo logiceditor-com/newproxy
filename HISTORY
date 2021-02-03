@@ -1,3 +1,13 @@
+Version 1.1.0 (2021-02-03)
+==========================
+
+- `RELEASE` file with instructions is added.
+- The callable table with metadata fields is exported instead of the raw
+  function.
+- rockspec generator is added.
+- `make.sh` is added.
+- `README` file is updated.
+
 Version 1.0.0 (2020-12-08)
 ==========================
 

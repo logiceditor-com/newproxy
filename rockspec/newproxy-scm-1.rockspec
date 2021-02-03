@@ -1,8 +1,8 @@
 package = "newproxy"
-version = "1.0.0-1"
+version = "scm-1"
 source = {
    url = "git://github.com/logiceditor-com/newproxy.git",
-   branch = "v1.0.0"
+   branch = "master"
 }
 description = {
    summary = "Lua 5.1's newproxy() replacement for future Lua versions",
@@ -16,8 +16,13 @@ dependencies = {
 build = {
    type = "builtin",
    modules = {
-      ["newproxy"] = {
-         sources = { "newproxy.c" }
+      ["newproxy.newproxy"] = {
+         sources = { "newproxy/newproxy.c" }
+      }
+   },
+   install = {
+      lua = {
+         ["newproxy.init"] = "newproxy/init.lua";
       }
    }
 }

@@ -1,8 +1,8 @@
 package = "newproxy"
-version = "scm-1"
+version = "1.1.0-1"
 source = {
    url = "git://github.com/logiceditor-com/newproxy.git",
-   branch = "master"
+   branch = "v1.1.0"
 }
 description = {
    summary = "Lua 5.1's newproxy() replacement for future Lua versions",

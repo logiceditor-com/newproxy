@@ -35,7 +35,7 @@ static int luaB_newproxy (lua_State *L) {
  * END COPY-PASTE FROM Lua 5.1.5 lbaselib.c
  */
 
-int luaopen_newproxy (lua_State *L) {
+int luaopen_newproxy_newproxy (lua_State *L) {
     lua_pushcclosure(L, luaB_newproxy, 1);
     return 1;
 }
